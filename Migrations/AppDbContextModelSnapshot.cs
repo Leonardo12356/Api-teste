@@ -39,7 +39,7 @@ namespace ApiTest.Migrations
                         .HasColumnType("text")
                         .HasColumnName("ano");
 
-                    b.Property<int>("ClienteId")
+                    b.Property<int>("IdCliente")
                         .HasColumnType("integer");
 
                     b.Property<string>("Marca")
@@ -57,7 +57,7 @@ namespace ApiTest.Migrations
 
                     b.HasKey("IdCarro");
 
-                    b.HasIndex("ClienteId");
+                    b.HasIndex("IdCliente");
 
                     b.HasIndex("ServPrestadoId");
 
@@ -129,7 +129,7 @@ namespace ApiTest.Migrations
                 {
                     b.HasOne("ApiTest.Models.Entities.Cliente", "Cliente")
                         .WithMany("Carros")
-                        .HasForeignKey("ClienteId")
+                        .HasForeignKey("IdCliente")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

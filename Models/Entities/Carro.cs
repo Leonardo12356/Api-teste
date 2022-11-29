@@ -34,7 +34,7 @@ namespace ApiTest.Models.Entities
 
 
         [JsonIgnore]
-        public int ClienteId { get; set; }
+        public int IdCliente { get; set; }
 
     }
 }
