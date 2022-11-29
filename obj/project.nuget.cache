@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Dx+fuVLWqJ9cHUYFYYSRxv9tX7OmZVXlRVK4yE3cqKVu34XJMOiCB65nNcfuLYtJ9QuVYQj9YHdJgcAAxhvkdQ==",
+  "dgSpecHash": "GVBkLtB8mXxydWzOspD8vbSyVrLZ9922Ix4km3L4XMVQbdR1C6v3ERylv/hTiMLSqM/ofxzRWRk55Y742A0oqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\leoaguiar.dsn.pack\\Desktop\\ApiTest\\ApiTest.csproj",
   "expectedPackageFiles": [
@@ -41,7 +41,11 @@
     "C:\\Users\\leoaguiar.dsn.pack\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\leoaguiar.dsn.pack\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\leoaguiar.dsn.pack\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\leoaguiar.dsn.pack\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\leoaguiar.dsn.pack\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\leoaguiar.dsn.pack\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\leoaguiar.dsn.pack\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\leoaguiar.dsn.pack\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\leoaguiar.dsn.pack\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
   ],
   "logs": []
 }

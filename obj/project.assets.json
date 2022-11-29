@@ -1642,11 +1642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\leoaguiar.dsn.pack\\Desktop\\ApiTest\\ApiTest.csproj",
+      "projectUniqueName": "C:\\Users\\leoaguiar.dsn.pack\\Desktop\\ApiTest\\ApiTest.csproj",
       "projectName": "ApiTest",
-      "projectPath": "c:\\Users\\leoaguiar.dsn.pack\\Desktop\\ApiTest\\ApiTest.csproj",
+      "projectPath": "C:\\Users\\leoaguiar.dsn.pack\\Desktop\\ApiTest\\ApiTest.csproj",
       "packagesPath": "C:\\Users\\leoaguiar.dsn.pack\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\leoaguiar.dsn.pack\\Desktop\\ApiTest\\obj\\",
+      "outputPath": "C:\\Users\\leoaguiar.dsn.pack\\Desktop\\ApiTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leoaguiar.dsn.pack\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1725,6 +1725,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1733,7 +1751,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
