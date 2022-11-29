@@ -7,6 +7,6 @@ namespace ApiTest.Models.Dtos.ServPrestatdoDto
         public double Valor { get; set; }
         public DateTime Data { get; set; }
 
-        public virtual List<Models.Entities.Carro> ListaCarros { get; set; }
+        public virtual List<Models.Entities.Carro> Carros { get; set; }
     }
 }
