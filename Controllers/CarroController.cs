@@ -1,5 +1,6 @@
 using ApiTest.Interfaces;
 using ApiTest.Models.Dtos.Carro;
+using FluentResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiTest.Controllers
@@ -38,6 +39,18 @@ namespace ApiTest.Controllers
                 return Ok(carro);
             }
             return NotFound("Carro não encontrado.");
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult BuscarPorId(int id)
+        {
+            var carro = _Interfaces.BuscarPorId(id);
+
+            if (carro != null)
+            {
+                return Ok(carro);
+            }
+            return NotFound("Id do carro não encontardo");
         }
 
     }

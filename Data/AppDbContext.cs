@@ -29,7 +29,7 @@ namespace ApiTest.Data
             Builder.Entity<Carro>()
             .HasOne(carro => carro.ServPrestado)
             .WithMany(servico => servico.Carros)
-            .HasForeignKey(carro => carro.ServPrestadoId);
+            .HasForeignKey(carro => carro.IdServico);
         }
     }
 }

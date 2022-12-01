@@ -52,7 +52,7 @@ namespace ApiTest.Migrations
                     modelo = table.Column<string>(type: "text", nullable: false),
                     marca = table.Column<string>(type: "text", nullable: false),
                     ano = table.Column<string>(type: "text", nullable: false),
-                    ServPrestadoId = table.Column<int>(type: "integer", nullable: false),
+                    IdServico = table.Column<int>(type: "integer", nullable: false),
                     IdCliente = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
@@ -65,8 +65,8 @@ namespace ApiTest.Migrations
                         principalColumn: "id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_carros_servPrestado_ServPrestadoId",
-                        column: x => x.ServPrestadoId,
+                        name: "FK_carros_servPrestado_IdServico",
+                        column: x => x.IdServico,
                         principalTable: "servPrestado",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Cascade);
@@ -78,9 +78,9 @@ namespace ApiTest.Migrations
                 column: "IdCliente");
 
             migrationBuilder.CreateIndex(
-                name: "IX_carros_ServPrestadoId",
+                name: "IX_carros_IdServico",
                 table: "carros",
-                column: "ServPrestadoId");
+                column: "IdServico");
         }
 
         /// <inheritdoc />

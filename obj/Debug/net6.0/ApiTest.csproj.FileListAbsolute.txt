@@ -52,3 +52,8 @@ C:\Users\leoaguiar.dsn.pack\Desktop\ApiTest\obj\Debug\net6.0\refint\ApiTest.dll
 C:\Users\leoaguiar.dsn.pack\Desktop\ApiTest\obj\Debug\net6.0\ApiTest.pdb
 C:\Users\leoaguiar.dsn.pack\Desktop\ApiTest\obj\Debug\net6.0\ApiTest.genruntimeconfig.cache
 C:\Users\leoaguiar.dsn.pack\Desktop\ApiTest\obj\Debug\net6.0\ref\ApiTest.dll
+C:\Users\leoaguiar.dsn.pack\Desktop\ApiTest\obj\Debug\net6.0\staticwebassets\msbuild.ApiTest.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\leoaguiar.dsn.pack\Desktop\ApiTest\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiTest.props
+C:\Users\leoaguiar.dsn.pack\Desktop\ApiTest\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiTest.props
+C:\Users\leoaguiar.dsn.pack\Desktop\ApiTest\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiTest.props
+C:\Users\leoaguiar.dsn.pack\Desktop\ApiTest\obj\Debug\net6.0\staticwebassets.pack.json

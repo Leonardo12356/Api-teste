@@ -27,7 +27,7 @@ namespace ApiTest.Models.Entities
         public virtual ServPrestado? ServPrestado { get; set; }
 
         [JsonIgnore]
-        public int ServPrestadoId { get; set; }
+        public int IdServico { get; set; }
 
         [JsonIgnore]
         public virtual Cliente Cliente { get; set; }
